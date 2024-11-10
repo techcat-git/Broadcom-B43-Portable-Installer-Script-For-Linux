@@ -6,7 +6,7 @@ This script takes advantage of Base64 encoding to encode the driver files inside
 
 How to use:
 
-1. Download "b43.zip" from the repository and transfer it to the computer you'd like to install the b43 driver to.
+1. Download "b43.sh" from the repository and transfer it to the computer you'd like to install the b43 driver to.
 
 2. Open a terminal and cd into the directory you have the script in, and make sure the script is set as executable by typing "chmod a+x b43.sh".
 
