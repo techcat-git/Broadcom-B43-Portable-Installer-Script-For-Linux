@@ -9,7 +9,7 @@ echo "Broadcom B43 Portable Driver Installer for Linux"
 echo "------------------------------------------------"
 echo ""
 echo "Made by: TechCat-Dev on Github."
-echo "No internet connection required. all files needed are encoded within this script."
+echo "No internet connection required. All files needed are encoded within this script."
 echo ""
 read -p "Press Enter to Start Installation!"
 
