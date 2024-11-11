@@ -4,6 +4,8 @@ This script takes advantage of Base64 encoding to encode the driver files inside
 
 ![image](https://github.com/user-attachments/assets/9073a45c-2a7d-478e-95dc-f84b658a7e7a)
 
+**Required packages: base64, unzip (these should be installed by default on most Linux distros. but if they aren't, you must install them before using this script.**
+
 How to use:
 
 1. Download "b43.sh" from the repository and transfer it to the computer you'd like to install the b43 driver to.
