@@ -14,4 +14,12 @@ How to use:
 
 3. Run the script as root by typing "sudo ./b43.sh" and then follow the on screen instructions!
 
+Tested machines:
+
+✅ - iMac G5
+
+✅ - Dell Latitude D610
+
+✅ - Dell Inspiron 1720
+
 
