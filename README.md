@@ -6,7 +6,7 @@ This script takes advantage of Base64 encoding to encode the driver files inside
 
 (This script will NOT work on Adelie Linux or other distros that do not have the "modprobe" command.)
 
-![image](https://github.com/user-attachments/assets/9073a45c-2a7d-478e-95dc-f84b658a7e7a)
+<img width="854" height="651" alt="image" src="https://github.com/user-attachments/assets/9762dbcf-6f30-485c-997e-18c0e6a385c2" />
 
 How to use:
 
