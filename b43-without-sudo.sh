@@ -4,9 +4,9 @@ if [ "$(id -u)" -ne 0 ]; then
         exit 1
 fi
 clear
-echo "----------------------------------------------------------"
-echo "Broadcom B43 Portable Driver Installer for Linux (w/ sudo)"
-echo "----------------------------------------------------------"
+echo "-----------------------------------------------------------"
+echo "Broadcom B43 Portable Driver Installer for Linux (w/o sudo)"
+echo "-----------------------------------------------------------"
 echo ""
 echo "Made by techcat-git on Github."
 echo "No internet connection required. All files needed are encoded within this script"
@@ -2250,7 +2250,7 @@ unzip b43.zip
 clear
 
 #moves files
-sudo mv lib/firmware/b43 /lib/firmware
+mv lib/firmware/b43 /lib/firmware
 clear
 
 #deletes zip and extracted folder
@@ -2259,8 +2259,8 @@ rm -rf lib
 clear
 
 #disables broadcom wl and enables the new broadcom b43
-sudo rmmod wl
-sudo modprobe b43
+rmmod wl
+modprobe b43
 clear
 
 echo "Installation is finished! Please restart your computer for the new driver to start functioning."
