@@ -6,6 +6,13 @@ This script takes advantage of Base64 encoding to encode the driver files inside
 
 (This script will NOT work on Adelie Linux or other distros that do not have the "modprobe" command.)
 
+Files:
+
+b43.sh - Standard installer. Use this one if you're unsure.
+
+b43-without-sudo.sh - Use this if you **DO NOT** have sudo installed. Root access is still required.
+
+
 <img width="854" height="651" alt="image" src="https://github.com/user-attachments/assets/9762dbcf-6f30-485c-997e-18c0e6a385c2" />
 
 How to use:
